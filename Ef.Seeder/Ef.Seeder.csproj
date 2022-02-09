@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputType>Library</OutputType>
+        <RootNamespace>Ef.Seeder</RootNamespace>
+        <AssemblyName>Ef.Seeder</AssemblyName>
+        <PackageId>Ef.Seeder</PackageId>
+        <PackageVersion>1.0.2</PackageVersion>
+        <Version>1.0.2</Version>
+        <Authors>AshkanAbd</Authors>
+        <Company>AshkanAbd</Company>
+        <Title>Seeder for EFCore and other ORMs</Title>
+        <Description>Simple and useful seeder for EFCore and other ORMs</Description>
+        <PackageTags>efcore,ef,entity framwework,seeder,seed,data,values,database,fake,faker</PackageTags>
+        <RepositoryUrl>https://github.com/AshkanAbd/EF.Seeder</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+</Project>
