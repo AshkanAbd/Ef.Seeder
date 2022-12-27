@@ -1,8 +1,9 @@
-# EF.Seeder
+# EF.Seeder sample
 
 ### Seeder for EFCore and other ORMs.
 
-A new seeder mainly for EFCore and also for other ORMs to easily seeding database.
+A new seeder mainly for EFCore and also for other ORMs to easily seeding database.     
+This repo contains a sample for usage for [Ef.Seeder](https://www.nuget.org/packages/Ef.Seeder)
 
 ## Previous EFCore seeder:
 
@@ -11,7 +12,7 @@ the database. Also that seeds won't increase the primary key and indexes of your
 
 ## New Seeder that implemented in this package:
 
-After my experience while using EFCore seeder, I decided to write a new implementation for EFCore seeder. Also a sample project this implementation is available in [this link](https://github.com/AshkanAbd/Ef.Seeder/Sample)
+After my experience while using EFCore seeder, I decided to write a new implementation for EFCore seeder.
 
 #### New seeder approach:
 
@@ -70,6 +71,7 @@ new DatabaseSeeder(ServiceProvider)
 ```
 
 You can put above lines in any part of your application, but note that you need to a not disposed `ServiceProvider`.   
+In this sample, I put it in `Main` method of `Program` class.    
 Also you can create a new `Command` using [AppCommand package](https://www.nuget.org/packages/AppCommand)
 to seed you database without source code. Also with [AppCommand package](https://www.nuget.org/packages/AppCommand), you can easily access `ServiceProvider`
 
@@ -102,7 +104,7 @@ Seeder automatically checks your database's tables. If the model's table has som
 
 I think this implementation is good start point for a new seeder in EFCore and it's better than previous seeder of EFCore. I hope you like it.
 
-## Donation:
+### Donation:
 
 If you like it, you can support me with `USDT`:
 
