@@ -11,7 +11,7 @@ the database. Also that seeds won't increase the primary key and indexes of your
 
 ## New Seeder that implemented in this package:
 
-After my experience while using EFCore seeder, I decided to write a new implementation for EFCore seeder. Also a sample project this implementation is available in [this link](https://github.com/AshkanAbd/Ef.Seeder/Sample)
+After my experience while using EFCore seeder, I decided to write a new implementation for EFCore seeder. Also a sample project this implementation is available in [this link](https://github.com/AshkanAbd/Ef.Seeder/tree/main/Sample)
 
 #### New seeder approach:
 
